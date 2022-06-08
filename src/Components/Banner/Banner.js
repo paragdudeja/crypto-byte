@@ -51,7 +51,7 @@ const Banner = () => {
               fontFamily: "Montserrat",
             }}
           >
-            Get all the info regarding your favourite Crypto Currency
+            Get all  the info regarding your favourite Crypto Currency
           </Typography>
         </div>
         <Carousel/>
