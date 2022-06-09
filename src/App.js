@@ -2,6 +2,7 @@ import { makeStyles } from '@material-ui/core';
 import { Route } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
+import Alert from './Components/Alert';
 import Header from './Components/Header';
 import CoinPage from './Pages/CoinPage';
 import Homepage from './Pages/Homepage';
@@ -25,6 +26,7 @@ function App() {
         <Route path='/' component={Homepage} exact/>
         <Route path='/coins/:id' component={CoinPage} />
       </div>
+      <Alert />
     </BrowserRouter>
   );
 }
